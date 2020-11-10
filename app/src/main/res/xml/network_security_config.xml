@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
+
+    <!--网络配置文件，androidP之后的明文通讯都被认为是不安全的-->
+    <!--使用 http 网络请求时需要到  AndroidManifest.xml  配置-->
